@@ -1,0 +1,1277 @@
+html{
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 50%);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    height: 600vh;
+    background-color: #0B0016;
+    font-family: "Questrial", sans-serif;
+    color: white;
+}
+
+#fundo{
+    background-image: url(h1_hero1.webp); 
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    height: 65vh;
+    background-color: rgb(17, 17, 17, 50%);
+}
+
+a{text-decoration: none; color: white; font-family: "Questrial", sans-serif;}
+
+.bolaqsobe{
+    position: absolute;
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    background-color: #D6A04C;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    z-index: 5;
+}
+
+.ti-angle-up{
+    position: absolute;
+    left: 25%;
+    top: 24%;
+    font-size: 20px;
+}
+
+.btn_free {
+    background-color: #D6A04C;
+    border: solid #D6A04C 1px;
+    width: 159px;
+    height: 45px;
+    font-size: 16px;
+    position: absolute;
+    top: 35px;
+    left: 75%;
+    line-height: 45px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.btn_free:hover{
+    background-color: transparent;
+    color: #D6A04C;
+    transition: 0.3s;
+}
+
+#menu {
+    display: inline-block;
+    height: 10px;
+    width: 2.5%;
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+    position: absolute;
+    top: 50px;
+    left: 87%;
+    cursor: pointer;
+}
+
+.menuaberto{
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    background-color: #0A0A0A;
+    left: 100%;
+    top: 0;
+    z-index: 6;
+    transition: 0.8s;
+}
+
+#checkbox{
+    position: absolute;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#checkbox:checked ~ .menuaberto{
+    left: 80%;
+    transition: 0.8s;
+}
+
+.ti-close{
+    position: absolute;
+    font-size: 21px;
+    left: 30px;
+    top: 35px;
+    cursor: pointer;
+}
+
+.ti-close:hover{
+    color: #D6A04C;
+    transition: 0.3s;
+}
+
+.menucoisas{
+    width: 211px;
+    height: 301px;   
+}
+
+li{
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+    top: 40%;
+    line-height: 2.7;
+    list-style: none;
+}
+
+
+.telefone{color: white;
+    text-decoration: none;
+    font-family: "Questrial", sans-serif;
+    position: absolute;
+    top: 47px;
+    left: 64%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.BlogG{
+    position: absolute;
+    font-size: 50px;
+    color: #ffffff;
+    left: 245px;
+    top: 275px;
+}
+
+.home{
+    position: relative;
+    left: 245px;
+    top: 215px;
+    color: #E9E3D9;
+}
+
+.barra{
+    position: relative; 
+    top: 215px;
+    left: 250px;
+    color: #E9E3D9;
+}
+
+.blogP{
+    position: relative;
+    top: 215px;
+    left: 255px;
+    color: #E9E3D9;
+}
+
+.blog{
+    width: 856px;
+    height: 663px;
+    position: relative;
+    top: 120px;
+    left: 160px;
+}
+
+.imgblog{
+    width: 856px;
+}
+
+.blogtexto{
+    width: 856px;
+    height: 234.58px;
+    box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+}
+
+.blogtextotitulo{
+    font-size: 24px;
+    color: #ffffff;
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+
+.blogtextotitulo:hover{
+    color: #D6A04C;
+    cursor: pointer;
+}
+
+.blogtextotitulo2{
+    font-size: 24px;
+    color: #ffffff;
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+
+.blogtextotitulo2:hover{
+    color: #D6A04C;
+    cursor: pointer;
+}
+
+.blogtextotitulo3{
+    font-size: 24px;
+    color: #ffffff;
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+
+.blogtextotitulo3:hover{
+    color: #D6A04C;
+    cursor: pointer;
+}
+
+.blogtextotitulo4{
+    font-size: 24px;
+    color: #ffffff;
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+
+.blogtextotitulo4:hover{
+    color: #D6A04C;
+    cursor: pointer;
+}
+
+.blogtextotitulo5{
+    font-size: 24px;
+    color: #ffffff;
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+
+.blogtextotitulo5:hover{
+    color: #D6A04C;
+    cursor: pointer;
+}
+
+.blogtxt{
+    position: absolute;
+    width: 791px;
+    height: 44.78px;
+    top: 540px; 
+    left: 33px;
+}
+
+.ti-user{
+    position: absolute;
+    left: 33px;
+    top: 630px;
+    color: #D6A04C;
+}
+
+.Travel{
+    position: absolute;
+    left: 52px;
+    top: 630px;
+    color: #D6A04C;
+}
+
+.ti-comments{
+    position: absolute;
+    left: 186px;
+    top: 630px;
+    color: #D6A04C;
+}
+
+.comments{
+    position: absolute;
+    left: 215px;
+    top: 630px;
+    color: #D6A04C; 
+}
+
+.qjanbtn{
+    position: absolute;
+    width: 90px;
+    height: 87.19px;
+    font-size: 27px;
+    background-color: #D6A04C;
+    color: #ffffff;
+    border: none;
+    border-radius: 5%;
+    top: 360px;
+    left: 30px;
+    transition: 0.3s;
+}
+
+.qjanbtn:hover{
+    color: #D6A04C;
+    background-color: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.qjanbtn2{
+   position: absolute;
+    width: 90px;
+    height: 87.19px;
+    font-size: 27px;
+    background-color: #D6A04C;
+    color: #ffffff;
+    border: none;
+    border-radius: 5%;
+    top: 370px;
+    left: 30px; 
+    transition: 0.3s;
+}
+
+.qjanbtn2:hover{
+    color: #D6A04C;
+    background-color: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.qjanbtn3{
+   position: absolute;
+    width: 90px;
+    height: 87.19px;
+    font-size: 27px;
+    background-color: #D6A04C;
+    color: #ffffff;
+    border: none;
+    border-radius: 5%;
+    top: 370px;
+    left: 30px; 
+    transition: 0.3s;
+}
+
+.qjanbtn3:hover{
+    color: #D6A04C;
+    background-color: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.qjanbtn4{
+   position: absolute;
+    width: 90px;
+    height: 87.19px;
+    font-size: 27px;
+    background-color: #D6A04C;
+    color: #ffffff;
+    border: none;
+    border-radius: 5%;
+    top: 370px;
+    left: 30px; 
+    transition: 0.3s;
+}
+
+.qjanbtn4:hover{
+    color: #D6A04C;
+    background-color: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.qjanbtn5{
+   position: absolute;
+    width: 90px;
+    height: 87.19px;
+    font-size: 27px;
+    background-color: #D6A04C;
+    color: #ffffff;
+    border: none;
+    border-radius: 5%;
+    top: 370px;
+    left: 30px; 
+    transition: 0.3s;
+}
+
+.qjanbtn5:hover{
+    color: #D6A04C;
+    background-color: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.nada{
+    width: 856px;
+    height: 50px;
+    background-color: transparent;
+}
+
+.partebranca{
+    width: 416px;
+    height: 2109.13px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 625px;
+    left: 65.4%;
+}
+
+.SearchKeybord{
+    width: 416px;
+    height: 110px;
+    background-color: #ffffff;
+}
+
+.Search{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 263px;
+    height: 50px;
+    font-size: 13px;
+    border: none;
+}
+
+.btnSearch{
+    position: absolute;
+    width: 94px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #D6A04C;
+    color: #ffffff;
+    top: 30px;
+    left: 295px;
+    border: none;
+    cursor: pointer;
+}
+
+.Categorys{
+    width: 416px;
+    height: 426.34px;
+    position: relative;
+    background-color: #ffffff; 
+    color: #0A0A0A;
+    top: 30px;
+}
+
+.Category{
+    color: #000;  
+    font-size: 20px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+.Resaurant{
+    color: #545454;
+    font-size: 16px;
+    position: absolute;
+    left: 25px;
+    top: 100px;
+}
+
+.Resaurant:hover{
+    color: #D6A04C;
+    cursor: pointer;
+}
+
+.TravelNews{
+    color: #545454;
+    font-size: 16px;
+    position: absolute;
+    left: 25px;
+    top: 150px;
+}
+
+.TravelNews:hover{
+    color: #D6A04C;
+    cursor: pointer;  
+}
+
+.Moderntechnology{
+    color: #545454;
+    font-size: 16px;
+    position: absolute;
+    left: 25px;
+    top: 200px;
+}
+
+.Moderntechnology:hover{
+    color: #D6A04C;
+    cursor: pointer;   
+}
+
+.Product{
+    color: #545454;
+    font-size: 16px;
+    position: absolute;
+    left: 25px;
+    top: 250px;
+}
+
+.Product:hover{
+    color: #D6A04C;
+    cursor: pointer;  
+}
+
+.Inspiration{
+    color: #545454;
+    font-size: 16px;
+    position: absolute;
+    left: 25px;
+    top: 300px;
+}
+
+.Inspiration:hover{
+    color: #D6A04C;
+    cursor: pointer; 
+}
+
+.Health{
+    color: #545454;
+    font-size: 16px;
+    position: absolute;
+    left: 25px;
+    top: 350px;
+}
+
+.Health:hover{
+    color: #D6A04C;
+    cursor: pointer;
+}
+
+.RecentPosts{
+    width: 416px;
+    height: 520px;
+    background-color: #ffffff;
+    position: relative;
+    top: 60px;
+}
+
+.RecentPost{
+    color: #000;  
+    font-size: 20px;
+    position: absolute;
+    left: 25px;
+    top: 25px; 
+}
+
+.post1{
+    position: absolute;
+    left: 25px;
+    top: 90px;
+}
+
+.From{
+    color: #000;
+    font-size: 18px;
+    position: absolute;
+    left: 130px;
+    top: 110px;
+}
+
+.From:hover{
+    color: #D6A04C;
+    cursor: pointer;
+}
+
+.datepost{
+    color: #545454;
+    font-size: 14px;
+    position: absolute; 
+    top: 140px;
+    left: 130px;
+}
+
+.post2{
+    position: absolute;
+    left: 25px;
+    top: 190px;
+}
+
+.Amazing{
+    color: #000;
+    font-size: 18px;
+    position: absolute;
+    left: 130px;
+    top: 210px;  
+}
+
+.Amazing:hover{
+    color: #D6A04C;
+    cursor: pointer;
+}
+
+.datepost2{
+    color: #545454;
+    font-size: 14px;
+    position: absolute; 
+    top: 240px;
+    left: 130px;
+}
+
+.post3{
+    position: absolute;
+    left: 25px;
+    top: 290px; 
+}
+
+.Astronomy{
+    color: #000;
+    font-size: 18px;
+    position: absolute;
+    left: 130px;
+    top: 310px;    
+}
+
+.Astronomy:hover{
+    color: #D6A04C;
+    cursor: pointer;
+}
+
+.datepost3{
+    color: #545454;
+    font-size: 14px;
+    position: absolute; 
+    top: 340px;
+    left: 130px;
+}
+
+.post4{
+    position: absolute;
+    left: 25px;
+    top: 390px; 
+}
+
+.Asteroids{
+    color: #000;
+    font-size: 18px;
+    position: absolute;
+    left: 130px;
+    top: 410px; 
+}
+
+.Asteroids:hover{
+    color: #D6A04C;
+    cursor: pointer;
+}
+
+.datepost4{
+    color: #545454;
+    font-size: 14px;
+    position: absolute; 
+    top: 440px;
+    left: 130px;
+}
+
+.TagCloud{
+    width: 416px;
+    height: 252.5px;
+    position: relative;
+    top: 90px;
+    background-color: #ffffff;
+}
+
+.TagClouds{  
+    color: #000;  
+    font-size: 20px;
+    position: absolute;
+    left: 25px;
+    top: 25px; 
+} 
+
+.btns{
+    width: 340px;
+    position: absolute;
+    left: 25px;
+    top: 100px;
+}
+
+.btn{
+    width: 82px;
+    height: 29.5;
+    background-color: #ffffff;
+    color: #D6A04C;
+    border: none;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #D6A04C;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn2{
+    width: 65px;
+    height: 29.5;
+    background-color: #ffffff;
+    color: #D6A04C;
+    border: none;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.btn2:hover{
+    background-color: #D6A04C;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn3{
+    width: 105px;
+    height: 29.5;
+    background-color: #ffffff;
+    color: #D6A04C;
+    border: none;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.btn3:hover{
+    background-color: #D6A04C;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn4{
+    width: 74px;
+    height: 29.5;
+    background-color: #ffffff;
+    color: #D6A04C;
+    border: none;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.btn4:hover{
+    background-color: #D6A04C;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn5{
+    width: 101px;
+    height: 29.5;
+    background-color: #ffffff;
+    color: #D6A04C;
+    border: none;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.btn5:hover{
+    background-color: #D6A04C;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn6{
+    width: 88px;
+    height: 29.5;
+    background-color: #ffffff;
+    color: #D6A04C;
+    border: none;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.btn6:hover{
+    background-color: #D6A04C;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn7{
+    width: 81px;
+    height: 29.5;
+    background-color: #ffffff;
+    color: #D6A04C;
+    border: none;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.btn7:hover{
+    background-color: #D6A04C;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn8{
+    width: 101px;
+    height: 29.5;
+    background-color: #ffffff;
+    color: #D6A04C;
+    border: none;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.btn8:hover{
+    background-color: #D6A04C;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.InstagramFeed{
+    width: 416px;
+    height: 391.28px;
+    background-color: #ffffff;
+    position: relative;
+    top: 120px;   
+}
+
+.InstagramFeeds{
+    color: #000;  
+    font-size: 20px;
+    position: absolute;
+    left: 25px;
+    top: 25px; 
+}
+
+.posts{
+    position: absolute;
+    left: 25px;
+    top: 90px;
+}
+
+.post5{
+    width: 110.64px;
+    height: 110.64px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.post6{
+    width: 110.64px;
+    height: 110.64px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.post7{
+    width: 110.64px;
+    height: 110.64px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.post8{
+    width: 110.64px;
+    height: 110.64px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.post9{
+    width: 110.64px;
+    height: 110.64px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.post10{
+    width: 110.64px;
+    height: 110.64px;
+    margin: 6px;
+}
+
+
+
+.NewsletterT{
+    width: 416px;
+    height: 259px;
+    position: relative;
+    top: 150px;
+    background-color: #ffffff;
+}
+
+.Newsletters{
+    color: #000;  
+    font-size: 20px;
+    position: absolute;
+    left: 25px;
+    top: 25px;  
+}
+
+.enteremail{
+    position: relative;
+    top: 110px;
+    left: 25px;
+    width: 356px;
+    height: 50px;
+    background: transparent;
+    border: #ffffff solid 1px;
+    font-size: 13px;
+    color: #545454;
+}
+
+.subscribe{
+    width: 356px;
+    height: 53px;
+    background-color: #ffffff;
+    border: #D6A04C solid 1px;
+    color: #D6A04C;
+    position: relative;
+    left: 25px;
+    top: 120px;
+    transition: 0.3s;
+}
+
+.subscribe:hover{
+    background-color: #D6A04C;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.passarpagina{
+    position: relative;
+    top: 160px;
+    left: 500px;
+}
+
+.ti-angle-left{
+    width: 45px;
+    height: 45px;
+    font: 14px;
+    color: #D6A04C;
+    background-color: #ffffff;
+    transition: 0.3s;
+    border: #ffffff solid 1px;
+}
+
+.ti-angle-left:hover{
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pag1{
+    width: 45px;
+    height: 45px;
+    font: 14px;
+    color: #D6A04C;
+    background-color: #ffffff;  
+    transition: 0.3s;
+    border: #ffffff solid 1px;
+}
+
+.pag1:hover{
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pag2{
+    width: 45px;
+    height: 45px;
+    font: 14px;
+    color: #D6A04C;
+    background-color: #ffffff;  
+    transition: 0.3s;
+    border: #ffffff solid 1px;
+}
+
+.pag2:hover{
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ti-angle-right{
+    width: 45px;
+    height: 45px;
+    font: 14px;
+    color: #D6A04C;
+    background-color: #ffffff;  
+    transition: 0.3s;
+    border: #ffffff solid 1px;
+}
+
+.ti-angle-right:hover{
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.rodapé{
+    width: 100%;
+    height: 530px;
+    position: relative;
+    top: 240px;
+    background-color: rgb(30, 30, 30);
+}
+
+.Belara2{
+    position: absolute;
+    left: 128px;
+    top: 128px;
+}
+
+.Homeownershipnever{
+    position: absolute;
+    font-size: 20px;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.8);
+    width: 35%;
+    font-family: "Questrial", sans-serif;
+    left: 30px;
+    top: 10px;
+}
+
+.World-class{
+    position: absolute;
+    font-size: 20px;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.8);
+    width: 35%;
+    font-family: "Questrial", sans-serif;
+    top: 10px;
+    left: 44%;
+}
+
+.QuickLinks{
+    position: absolute;
+    top: 128px;
+    left: 360px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.Services{
+    position: absolute;
+    top: 128px;
+    left: 570px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.Newsletter{
+    position: absolute;
+    top: 128px;
+    left: 66%;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.Work{
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    position: absolute;
+    left: 360px;
+    top: 200px;
+}
+
+.Services2{
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    position: absolute;
+    left: 360px;
+    top: 240px;
+}
+
+.Products{
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    position: absolute;
+    left: 360px;
+    top: 280px;
+}
+
+.TipsTricks{
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    position: absolute;
+    left: 360px;
+    top: 320px;
+}
+
+.FAQ{
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    position: absolute;
+    left: 570px;
+    top: 200px;
+}
+
+.SubmitTicket{
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    position: absolute;
+    left: 570px;
+    top: 240px;
+}
+
+.ContactUs{
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    color: #E9E3D9;
+    position: absolute;
+    left: 570px;
+    top: 280px;
+}
+
+.Subscribe{
+    color: #A4A6AE;
+    font-size: 16px;
+    position: absolute;
+    font-family: "Questrial", sans-serif;
+    left: 66%;
+    top: 200px;
+}
+
+.email{
+    position: absolute;
+    width: 416px;
+    height: 60px;
+    left: 66%;
+    top: 240px;
+    border-radius: 5%;
+}
+
+.btnemail{
+    background-color: #D6A04C;
+    height: 65px;
+    width: 80px;
+    position: absolute;
+    top: 241px;
+    left: 87.7%;
+    cursor: pointer;
+}
+
+.ti-facebook{
+    position: absolute;
+    left: 66%;
+    top: 370px;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.ti-facebook:hover{
+    transform: rotateY(180deg);
+    transition: 0.4s;
+}
+
+.ti-instagram{
+    position: absolute;
+    left: 69%;
+    top: 370px;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.ti-instagram:hover{
+    transform: rotateY(180deg);
+    transition: 0.4s;
+}
+
+.ti-linkedin{
+    position: absolute;
+    left: 72%;
+    top: 370px;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.ti-linkedin:hover{
+    transform: rotateY(180deg);
+    transition: 0.4s;
+}
+
+.ti-youtube{
+    position: absolute;
+    left: 75%;
+    top: 370px;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.ti-youtube:hover{
+    transform: rotateY(180deg);
+    transition: 0.4s;
+}
+
+.servicesG{
+    position: absolute;
+    font-size: 50px;
+    color: #ffffff;
+    left: 245px;
+    top: 245px;
+}
+
+.home{
+    position: relative;
+    left: 245px;
+    top: 215px;
+    color: #E9E3D9;
+}
+
+.barra{
+    position: relative; 
+    top: 215px;
+    left: 250px;
+    color: #E9E3D9;
+}
+
+.servicesP{
+    position: relative;
+    top: 215px;
+    left: 255px;
+    color: #E9E3D9;
+}
+
+.ti-facebook:hover{
+    transform: rotateY(180deg);
+    transition: 0.4s;
+    color: #D6A04C;
+}
+
+.ti-instagram:hover{
+    transform: rotateY(180deg);
+    transition: 0.4s;
+    color: #D6A04C;
+}
+
+.ti-linkedin:hover{
+    transform: rotateY(180deg);
+    transition: 0.4s;
+    color: #D6A04C;
+}
+
+.ti-youtube:hover{
+    transform: rotateY(180deg);
+    transition: 0.4s;
+    color: #D6A04C;
+}
